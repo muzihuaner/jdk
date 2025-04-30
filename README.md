@@ -1,6 +1,6 @@
 # 我应该使用哪个版本的 JDK？
 
-<img src="logo.png" alt="Duke is thinking, which version of JDK to use" width="600" />
+<img src="logo.png" alt="我应该使用哪个版本的 JDK？" width="600" />
 
 构建和运行 Java 应用程序需要实现 Java 平台标准版（“Java SE”）规范的 Java 编译器、Java 运行库和虚拟机。
 
@@ -299,68 +299,61 @@ Most distributions have _macOS/AArch64_ builds for Java 17+, only.
 [BellSoft Liberica](https://bell-sw.com/announcements/2021/03/12/Liberica-on-Apple-Silicon/), Amazon Corretto, and [Azul Zulu](https://www.azul.com/newsroom/azul-announces-support-of-java-builds-of-openjdk-for-apple-silicon/) also provide free _macOS/AArch64_ builds for Java 8 and Java 11.
 
 
-## FAQs
+## 问答
 
-### What is the best way to install a JDK for local development?
+### 本地开发安装 JDK 最好的方式是什么？
 
-Use [SDKMAN!](https://sdkman.io/install)
+使用 [SDKMAN!](https://sdkman.io/install)
 
-To list available JDKs, type
+要列出可用的 JDK，请输入
 ```
 sdk list java
 ```
 
-and install a specific version:
+安装特定版本：
 
 ```
 sdk install java 21.0.3-tem
 ```
 
-Validate by checking the version:
+通过检查版本来验证：
 
 ```
 java --version
 ```
 
 
-### Which version of Java do I currently have installed?
+### 我目前安装了哪个版本的 Java
 
 ```
 which java
 `which java` --version
 ```
 
-On Linux, you might also try
+在 Linux 上，您还可以尝试
 ```
 sudo update-java-alternatives
 ```
 
-### What is the difference between JDK and JRE?
+### JDK 和 JRE 之间的区别是什么？
 
-Some distributions provide a JDK (Java Development Kit) and a JRE (Java Runtime Environment) build.
-A JDK includes everything to _compile, package and run_ Java applications, while a JRE only includes the binaries and libraries to _run_ Java applications.
-The JRE is a stripped down version of the JDK, and is smaller in terms of megabytes.
+一些发行版提供了 JDK（Java 开发工具包）和 JRE（Java 运行环境）构建。JDK 包含了编译、打包和运行 Java 应用程序所需的一切，而 JRE 只包含运行 Java 应用程序所需的二进制文件和库。JRE 是 JDK 的精简版，在兆字节大小上更小。
 
-If size matters for you, consider creating your own stripped-down runtime using [jlink](https://blog.adoptium.net/2021/10/jlink-to-produce-own-runtime/).
+如果大小对您来说很重要，请考虑使用  [jlink](https://blog.adoptium.net/2021/10/jlink-to-produce-own-runtime/).创建自己的精简运行环境。
 
-For local development, you need a JDK.
-In production you only need a runtime environment, but it is quite common to use the JDK, too.
+对于本地开发，你需要一个 JDK。在生产环境中，如果你只需要运行环境，使用 JDK 也可以。
 
-### What about Java EE?
+### 关于 Java EE?
 
-_Java EE (Java Platform, Enterprise Edition)_ was renamed to _Jakarta EE_.
-It is a specification to build server app and frontends.
-In terms of scope, Jakarta EE can be compared with more modern frameworks like [Spring Boot](https://spring.io/projects/spring-boot), [Micronaut](https://micronaut.io), and [Quarkus](https://quarkus.io), but Jakarta EE feels more complicated.
+Java EE（Java 平台，企业版）已更名为 Jakarta EE。它是一个用于构建服务器应用程序和前端的应用程序规范。在使用上，Jakarta EE 可以与 [Spring Boot](https://spring.io/projects/spring-boot), [Micronaut](https://micronaut.io),  [Quarkus](https://quarkus.io),等现代框架相媲美，但 Jakarta EE 更复杂。
 
-⚠️ Recommendation: Do not start new projects based on _Jakarta EE_. Most people use _Spring Boot_, which is a good choice. Consider _Quarkus_, if you have a strong Java EE background. Consider _Micronaut_, if you like Groovy and Grails.
+⚠️建议：不要基于 Jakarta EE 开始新的项目。大多数人使用 Spring Boot，这是一个不错的选择。如果你有强烈的 Java EE 背景，可以考虑 Quarkus。如果你喜欢 Groovy 和 Grails，可以考虑 Micronaut。
 
 
 ## About
 
-This site is maintained by [Jochen Christ](https://twitter.com/jochen_christ).
-Any recommendations or opinions represented on this site are personal and based on long-term professional experience.
-The author is not associated with any of the organizations stated here.
+本网站由 muzihuaner 汉化维护。本网站上所表达的建议或观点均为个人意见，基于长期的专业经验。作者与所列组织无关。
 
-Found an error or something is missing? Please [raise an issue](https://github.com/whichjdk/whichjdk.com/issues/new) or [create a pull request](https://github.com/whichjdk/whichjdk.com/pulls).
+原项目 (https://github.com/whichjdk/whichjdk.com).
 
-Java and OpenJDK are trademarks or registered trademarks of Oracle and/or its affiliates.
+Java 和 OpenJDK 是 Oracle 及其附属公司的商标或注册商标。
