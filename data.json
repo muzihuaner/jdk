@@ -1,0 +1,751 @@
+{
+  "versions": [
+    {
+      "name": "JAVA SE 21.0.7 (LTS)",
+      "id": "java2107",
+      "downloads": [
+        {
+          "name": "jdk-21.0.7_linux-x64_bin.deb",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java21/java2107/jdk-21.0.7_linux-x64_bin.deb"
+        },
+        {
+          "name": "jdk-21.0.7_linux-x64_bin.rpm",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java21/java2107/jdk-21.0.7_linux-x64_bin.rpm"
+        },
+        {
+          "name": "jdk-21.0.7_linux-x64_bin.tar.gz",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java21/java2107/jdk-21.0.7_linux-x64_bin.tar.gz"
+        },
+        {
+          "name": "jdk-21.0.7_macos-aarch64_bin.dmg",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java21/java2107/jdk-21.0.7_macos-aarch64_bin.dmg"
+        },
+        {
+          "name": "jdk-21.0.7_macos-x64_bin.dmg",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java21/java2107/jdk-21.0.7_macos-x64_bin.dmg"
+        },
+        {
+          "name": "jdk-21.0.7_windows-x64_bin.exe",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java21/java2107/jdk-21.0.7_windows-x64_bin.exe"
+        },
+        {
+          "name": "jdk-21.0.7_windows-x64_bin.zip",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java21/java2107/jdk-21.0.7_windows-x64_bin.zip"
+        },
+        {
+          "name": "Checksum_jdk2107.txt",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java21/java2107/Checksum_jdk2107.txt"
+        }
+      ]
+    },
+    {
+      "name": "JAVA SE 17.0.15 (LTS)",
+      "id": "java17015",
+      "downloads": [
+        {
+          "name": "jdk-17.0.15_linux-x64_bin.deb",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java17/java17015/jdk-17.0.15_linux-x64_bin.deb"
+        },
+        {
+          "name": "jdk-17.0.15_linux-x64_bin.rpm",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java17/java17015/jdk-17.0.15_linux-x64_bin.rpm"
+        },
+        {
+          "name": "jdk-17.0.15_linux-x64_bin.tar.gz",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java17/java17015/jdk-17.0.15_linux-x64_bin.tar.gz"
+        },
+        {
+          "name": "jdk-17.0.15_macos-aarch64_bin.dmg",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java17/java17015/jdk-17.0.15_macos-aarch64_bin.dmg"
+        },
+        {
+          "name": "jdk-17.0.15_macos-x64_bin.dmg",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java17/java17015/jdk-17.0.15_macos-x64_bin.dmg"
+        },
+        {
+          "name": "jdk-17.0.15_windows-x64_bin.exe",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java17/java17015/jdk-17.0.15_windows-x64_bin.exe"
+        },
+        {
+          "name": "jdk-17.0.15_windows-x64_bin.zip",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java17/java17015/jdk-17.0.15_windows-x64_bin.zip"
+        },
+        {
+          "name": "Checksum_JDK17015.txt",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java17/java17015/Checksum_jdk17015.txt"
+        }
+      ]
+    },
+    {
+      "name": "JAVA SE 17.0.14 (LTS)",
+      "id": "java17014",
+      "downloads": [
+        {
+          "name": "jdk-17.0.14_linux-x64_bin.deb",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java17/java17014/jdk-17.0.14_linux-x64_bin.deb"
+        },
+        {
+          "name": "jdk-17.0.14_linux-x64_bin.rpm",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java17/java17014/jdk-17.0.14_linux-x64_bin.rpm"
+        },
+        {
+          "name": "jdk-17.0.14_linux-x64_bin.tar.gz",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java17/java17014/jdk-17.0.14_linux-x64_bin.tar.gz"
+        },
+        {
+          "name": "jdk-17.0.14_macos-aarch64_bin.dmg",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java17/java17014/jdk-17.0.14_macos-aarch64_bin.dmg"
+        },
+        {
+          "name": "jdk-17.0.14_macos-x64_bin.dmg",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java17/java17014/jdk-17.0.14_macos-x64_bin.dmg"
+        },
+        {
+          "name": "jdk-17.0.14_windows-x64_bin.exe",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java17/java17014/jdk-17.0.14_windows-x64_bin.exe"
+        },
+        {
+          "name": "jdk-17.0.14_windows-x64_bin.zip",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java17/java17014/jdk-17.0.14_windows-x64_bin.zip"
+        },
+        {
+          "name": "Checksum_JDK17014.txt",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java17/java17014/Checksum_JDK17014.txt"
+        }
+      ]
+    },
+    {
+      "name": "JAVA SE 17.0.13 (LTS)",
+      "id": "java17013",
+      "downloads": [
+        {
+          "name": "jdk-17.0.13_linux-x64_bin.rpm",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java17/java17013/jdk-17.0.13_linux-x64_bin.rpm"
+        },
+        {
+          "name": "jdk-17.0.13_linux-x64_bin.deb",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java17/java17013/jdk-17.0.13_linux-x64_bin.deb"
+        },
+        {
+          "name": "jdk-17.0.13_linux-x64_bin.tar.gz",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java17/java17013/jdk-17.0.13_linux-x64_bin.tar.gz"
+        },
+        {
+          "name": "jdk-17.0.13_macos-aarch64_bin.dmg",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java17/java17013/jdk-17.0.13_macos-aarch64_bin.dmg"
+        },
+        {
+          "name": "jdk-17.0.13_macos-x64_bin.dmg",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java17/java17013/jdk-17.0.13_macos-x64_bin.dmg"
+        },
+        {
+          "name": "jdk-17.0.13_windows-x64_bin.exe",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java17/java17013/jdk-17.0.13_windows-x64_bin.exe"
+        },
+        {
+          "name": "jdk-17.0.13_windows-x64_bin.zip",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java17/java17013/jdk-17.0.13_windows-x64_bin.zip"
+        },
+        {
+          "name": "Chekcum_JDK17.0.13.txt",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java17/java17013/Chekcum_JDK17.0.13.txt"
+        }
+      ]
+    },
+    {
+      "name": "JAVA SE 17.0.12 (LTS)",
+      "id": "java17012",
+      "downloads": [
+        {
+          "name": "jdk-17.0.12_linux-x64_bin.deb",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java17/java17012/jdk-17.0.12_linux-x64_bin.deb"
+        },
+        {
+          "name": "jdk-17.0.12_linux-x64_bin.rpm",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java17/java17012/jdk-17.0.12_linux-x64_bin.rpm"
+        },
+        {
+          "name": "jdk-17.0.12_linux-x64_bin.tar.gz",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java17/java17012/jdk-17.0.12_linux-x64_bin.tar.gz"
+        },
+        {
+          "name": "jdk-17.0.12_macos-aarch64_bin.dmg",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java17/java17012/jdk-17.0.12_macos-aarch64_bin.dmg"
+        },
+        {
+          "name": "jdk-17.0.12_macos-x64_bin.dmg",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java17/java17012/jdk-17.0.12_macos-x64_bin.dmg"
+        },
+        {
+          "name": "jdk-17.0.12_windows-x64_bin.exe",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java17/java17012/jdk-17.0.12_windows-x64_bin.exe"
+        },
+        {
+          "name": "jdk-17.0.12_windows-x64_bin.zip",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java17/java17012/jdk-17.0.12_windows-x64_bin.zip"
+        },
+        {
+          "name": "Checksum_jdk17012.txt",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java17/java17012/Checksum_jdk17012.txt"
+        }
+      ]
+    },
+    {
+      "name": "JAVA SE 11.0.27 (LTS)",
+      "id": "java11027",
+      "downloads": [
+        {
+          "name": "jdk-11.0.27_linux-x64_bin.deb",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java11/java11027/jdk-11.0.27_linux-x64_bin.deb"
+        },
+        {
+          "name": "jdk-11.0.27_linux-x64_bin.rpm",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java11/java11027/jdk-11.0.27_linux-x64_bin.rpm"
+        },
+        {
+          "name": "jdk-11.0.27_linux-x64_bin.tar.gz",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java11/java11027/jdk-11.0.27_linux-x64_bin.tar.gz"
+        },
+        {
+          "name": "jdk-11.0.27_macos-aarch64_bin.dmg",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java11/java11027/jdk-11.0.27_macos-aarch64_bin.dmg"
+        },
+        {
+          "name": "jdk-11.0.27_macos-x64_bin.dmg",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java11/java11027/jdk-11.0.27_macos-x64_bin.dmg"
+        },
+        {
+          "name": "jdk-11.0.27_solaris-sparcv9_bin.tar.gz",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java11/java11027/jdk-11.0.27_solaris-sparcv9_bin.tar.gz"
+        },
+        {
+          "name": "jdk-11.0.27_windows-x64_bin.exe",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java11/java11027/jdk-11.0.27_windows-x64_bin.exe"
+        },
+        {
+          "name": "jdk-11.0.27_windows-x64_bin.zip",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java11/java11027/jdk-11.0.27_windows-x64_bin.zip"
+        },
+        {
+          "name": "Checksum_jdk11027.txt",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java11/java11027/Checksum_jdk11027.txt"
+        }
+      ]
+    },
+    {
+      "name": "JAVA SE 11.0.26 (LTS)",
+      "id": "java11026",
+      "downloads": [
+        {
+          "name": "jdk-11.0.26_linux-x64_bin.deb",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java11/java11026/jdk-11.0.26_linux-x64_bin.deb"
+        },
+        {
+          "name": "jdk-11.0.26_linux-x64_bin.rpm",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java11/java11026/jdk-11.0.26_linux-x64_bin.rpm"
+        },
+        {
+          "name": "jdk-11.0.26_linux-x64_bin.tar.gz",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java11/java11026/jdk-11.0.26_linux-x64_bin.tar.gz"
+        },
+        {
+          "name": "jdk-11.0.26_macos-aarch64_bin.dmg",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java11/java11026/jdk-11.0.26_macos-aarch64_bin.dmg"
+        },
+        {
+          "name": "jdk-11.0.26_macos-x64_bin.dmg",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java11/java11026/jdk-11.0.26_macos-x64_bin.dmg"
+        },
+        {
+          "name": "jdk-11.0.26_solaris-sparcv9_bin.tar.gz",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java11/java11026/jdk-11.0.26_solaris-sparcv9_bin.tar.gz"
+        },
+        {
+          "name": "jdk-11.0.26_windows-x64_bin.exe",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java11/java11026/jdk-11.0.26_windows-x64_bin.exe"
+        },
+        {
+          "name": "jdk-11.0.26_windows-x64_bin.zip",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java11/java11026/jdk-11.0.26_windows-x64_bin.zip"
+        },
+        {
+          "name": "Checksum_jdk11026.txt",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java11/java11026/Checksum_jdk11026.txt"
+        }
+      ]
+    },
+    {
+      "name": "JAVA SE 11.0.25 (LTS)",
+      "id": "java11025",
+      "downloads": [
+        {
+          "name": "jdk-11.0.25_linux-x64_bin.deb",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java11/java11025/jdk-11.0.25_linux-x64_bin.deb"
+        },
+        {
+          "name": "jdk-11.0.25_linux-x64_bin.rpm",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java11/java11025/jdk-11.0.25_linux-x64_bin.rpm"
+        },
+        {
+          "name": "jdk-11.0.25_linux-x64_bin.tar.gz",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java11/java11025/jdk-11.0.25_linux-x64_bin.tar.gz"
+        },
+        {
+          "name": "jdk-11.0.25_macos-aarch64_bin.dmg",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java11/java11025/jdk-11.0.25_macos-aarch64_bin.dmg"
+        },
+        {
+          "name": "jdk-11.0.25_macos-x64_bin.dmg",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java11/java11025/jdk-11.0.25_macos-x64_bin.dmg"
+        },
+        {
+          "name": "jdk-11.0.25_solaris-sparcv9_bin.tar.gz",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java11/java11025/jdk-11.0.25_solaris-sparcv9_bin.tar.gz"
+        },
+        {
+          "name": "jdk-11.0.25_windows-x64_bin.exe",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java11/java11025/jdk-11.0.25_windows-x64_bin.exe"
+        },
+        {
+          "name": "jdk-11.0.25_windows-x64_bin.zip",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java11/java11025/jdk-11.0.25_windows-x64_bin.zip"
+        },
+        {
+          "name": "Checksum_JDK11.0.25.txt",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java11/java11025/Checksum_JDK11.0.25.txt"
+        }
+      ]
+    },
+    {
+      "name": "JAVA SE 11.0.24 (LTS)",
+      "id": "java11024",
+      "downloads": [
+        {
+          "name": "jdk-11.0.24_linux-x64_bin.deb",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java11/java11024/jdk-11.0.24_linux-x64_bin.deb"
+        },
+        {
+          "name": "jdk-11.0.24_linux-x64_bin.rpm",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java11/java11024/jdk-11.0.24_linux-x64_bin.rpm"
+        },
+        {
+          "name": "jdk-11.0.24_linux-x64_bin.tar.gz",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java11/java11024/jdk-11.0.24_linux-x64_bin.tar.gz"
+        },
+        {
+          "name": "jdk-11.0.24_macos-aarch64_bin.dmg",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java11/java11024/jdk-11.0.24_macos-aarch64_bin.dmg"
+        },
+        {
+          "name": "jdk-11.0.24_macos-x64_bin.dmg",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java11/java11024/jdk-11.0.24_macos-x64_bin.dmg"
+        },
+        {
+          "name": "jdk-11.0.24_solaris-sparcv9_bin.tar.gz",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java11/java11024/jdk-11.0.24_solaris-sparcv9_bin.tar.gz"
+        },
+        {
+          "name": "jdk-11.0.24_windows-x64_bin.exe",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java11/java11024/jdk-11.0.24_windows-x64_bin.exe"
+        },
+        {
+          "name": "jdk-11.0.24_windows-x64_bin.zip",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java11/java11024/jdk-11.0.24_windows-x64_bin.zip"
+        },
+        {
+          "name": "Checksum_jdk11024.txt",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java11/java11024/Checksum_jdk11024.txt"
+        }
+      ]
+    },
+    {
+      "name": "JAVA SE 8U451 RUNTIME ENVIRONMENT",
+      "id": "java8u451",
+      "downloads": [
+        {
+          "name": "jre-8u451-linux-i586.rpm",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java8/java8u451/jre/jre-8u451-linux-i586.rpm"
+        },
+        {
+          "name": "jre-8u451-linux-i586.tar.gz",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java8/java8u451/jre/jre-8u451-linux-i586.tar.gz"
+        },
+        {
+          "name": "jre-8u451-linux-x64.rpm",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java8/java8u451/jre/jre-8u451-linux-x64.rpm"
+        },
+        {
+          "name": "jre-8u451-linux-x64.tar.gz",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java8/java8u451/jre/jre-8u451-linux-x64.tar.gz"
+        },
+        {
+          "name": "jre-8u451-macosx-aarch64.dmg",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java8/java8u451/jre/jre-8u451-macosx-aarch64.dmg"
+        },
+        {
+          "name": "jre-8u451-macosx-x64.dmg",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java8/java8u451/jre/jre-8u451-macosx-x64.dmg"
+        },
+        {
+          "name": "jre-8u451-solaris-sparcv9.tar.gz",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java8/java8u451/jre/jre-8u451-solaris-sparcv9.tar.gz"
+        },
+        {
+          "name": "jre-8u451-windows-i586.exe",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java8/java8u451/jre/jre-8u451-windows-i586.exe"
+        },
+        {
+          "name": "jre-8u451-windows-i586.zip",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java8/java8u451/jre/jre-8u451-windows-i586.zip"
+        },
+        {
+          "name": "jre-8u451-windows-x64.exe",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java8/java8u451/jre/jre-8u451-windows-x64.exe"
+        },
+        {
+          "name": "jre-8u451-windows-x64.zip",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java8/java8u451/jre/jre-8u451-windows-x64.zip"
+        },
+        {
+          "name": "Checksum_jre8u451.txt",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java8/java8u451/jre/Checksum_JRE8u451.txt"
+        }
+      ]
+    },
+    {
+      "name": "JDK 8U441",
+      "id": "java8u441",
+      "downloads": [
+        {
+          "name": "jdk-8u441-linux-i586.rpm",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java8/java8u441/jdk/jdk-8u441-linux-i586.rpm"
+        },
+        {
+          "name": "jdk-8u441-linux-i586.tar.gz",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java8/java8u441/jdk/jdk-8u441-linux-i586.tar.gz"
+        },
+        {
+          "name": "jdk-8u441-linux-x64.rpm",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java8/java8u441/jdk/jdk-8u441-linux-x64.rpm"
+        },
+        {
+          "name": "jdk-8u441-linux-x64.tar.gz",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java8/java8u441/jdk/jdk-8u441-linux-x64.tar.gz"
+        },
+        {
+          "name": "jdk-8u441-macosx-aarch64.dmg",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java8/java8u441/jdk/jdk-8u441-macosx-aarch64.dmg"
+        },
+        {
+          "name": "jdk-8u441-macosx-x64.dmg",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java8/java8u441/jdk/jdk-8u441-macosx-x64.dmg"
+        },
+        {
+          "name": "jdk-8u441-solaris-x64.tar.gz",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java8/java8u441/jdk/jdk-8u441-solaris-x64.tar.gz"
+        },
+        {
+          "name": "jdk-8u441-windows-i586.exe",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java8/java8u441/jdk/jdk-8u441-windows-i586.exe"
+        },
+        {
+          "name": "jdk-8u441-windows-i586.zip",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java8/java8u441/jdk/jdk-8u441-windows-i586.zip"
+        },
+        {
+          "name": "jdk-8u441-windows-x64.exe",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java8/java8u441/jdk/jdk-8u441-windows-x64.exe"
+        },
+        {
+          "name": "jdk-8u441-windows-x64.zip",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java8/java8u441/jdk/jdk-8u441-windows-x64.zip"
+        },
+        {
+          "name": "Checksum_jdk8u441.txt",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java8/java8u441/jdk/Checksum_jdk8u441.txt"
+        }
+      ]
+    },
+    {
+      "name": "JAVA SE 8U441 RUNTIME ENVIRONMENT",
+      "id": "java8u441",
+      "downloads": [
+        {
+          "name": "jre-8u441-linux-i586.rpm",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java8/java8u441/jre/jre-8u441-linux-i586.rpm"
+        },
+        {
+          "name": "jre-8u441-linux-i586.tar.gz",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java8/java8u441/jre/jre-8u441-linux-i586.tar.gz"
+        },
+        {
+          "name": "jre-8u441-linux-x64.rpm",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java8/java8u441/jre/jre-8u441-linux-x64.rpm"
+        },
+        {
+          "name": "jre-8u441-linux-x64.tar.gz",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java8/java8u441/jre/jre-8u441-linux-x64.tar.gz"
+        },
+        {
+          "name": "jre-8u441-macosx-aarch64.dmg",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java8/java8u441/jre/jre-8u441-macosx-aarch64.dmg"
+        },
+        {
+          "name": "jre-8u441-macosx-x64.dmg",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java8/java8u441/jre/jre-8u441-macosx-x64.dmg"
+        },
+        {
+          "name": "jre-8u441-solaris-sparcv9.tar.gz",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java8/java8u441/jre/jre-8u441-solaris-sparcv9.tar.gz"
+        },
+        {
+          "name": "jre-8u441-windows-i586.exe",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java8/java8u441/jre/jre-8u441-windows-i586.exe"
+        },
+        {
+          "name": "jre-8u441-windows-i586.zip",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java8/java8u441/jre/jre-8u441-windows-i586.zip"
+        },
+        {
+          "name": "jre-8u441-windows-x64.exe",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java8/java8u441/jre/jre-8u441-windows-x64.exe"
+        },
+        {
+          "name": "jre-8u441-windows-x64.zip",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java8/java8u441/jre/jre-8u441-windows-x64.zip"
+        },
+        {
+          "name": "Checksum_jre8u441.txt",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java8/java8u441/jre/Checksum_jre8u441.txt"
+        }
+      ]
+    },
+    {
+      "name": "JDK 8U431",
+      "id": "jdk8u431",
+      "downloads": [
+        {
+          "name": "jdk-8u431-linux-i586.rpm",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java8/java8u431/jdk/jdk-8u431-linux-i586.rpm"
+        },
+        {
+          "name": "jdk-8u431-linux-i586.tar.gz",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java8/java8u431/jdk/jdk-8u431-linux-i586.tar.gz"
+        },
+        {
+          "name": "jdk-8u431-linux-x64.rpm",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java8/java8u431/jdk/jdk-8u431-linux-x64.rpm"
+        },
+        {
+          "name": "jdk-8u431-linux-x64.tar.gz",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java8/java8u431/jdk/jdk-8u431-linux-x64.tar.gz"
+        },
+        {
+          "name": "jdk-8u431-macosx-aarch64.dmg",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java8/java8u431/jdk/jdk-8u431-macosx-aarch64.dmg"
+        },
+        {
+          "name": "jdk-8u431-macosx-x64.dmg",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java8/java8u431/jdk/jdk-8u431-macosx-x64.dmg"
+        },
+        {
+          "name": "jdk-8u431-solaris-sparcv9.tar.gz",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java8/java8u431/jdk/jdk-8u431-solaris-sparcv9.tar.gz"
+        },
+        {
+          "name": "jdk-8u431-windows-i586.exe",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java8/java8u431/jdk/jdk-8u431-windows-i586.exe"
+        },
+        {
+          "name": "jdk-8u431-windows-i586.zip",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java8/java8u431/jdk/jdk-8u431-windows-i586.zip"
+        },
+        {
+          "name": "jdk-8u431-windows-x64.exe",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java8/java8u431/jdk/jdk-8u431-windows-x64.exe"
+        },
+        {
+          "name": "jdk-8u431-windows-x64.zip",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java8/java8u431/jdk/jdk-8u431-windows-x64.zip"
+        },
+        {
+          "name": "Checksum_JDK8u431.txt",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java8/java8u431/jdk/Checksum_JDK8u431.txt"
+        }
+      ]
+    },
+    {
+      "name": "JAVA SE 8U431 RUNTIME ENVIRONMENT",
+      "id": "jre8u431",
+      "downloads": [
+        {
+          "name": "jre-8u431-linux-i586.rpm",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java8/java8u431/jre/jre-8u431-linux-i586.rpm"
+        },
+        {
+          "name": "jre-8u431-linux-i586.tar.gz",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java8/java8u431/jre/jre-8u431-linux-i586.tar.gz"
+        },
+        {
+          "name": "jre-8u431-linux-x64.rpm",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java8/java8u431/jre/jre-8u431-linux-x64.rpm"
+        },
+        {
+          "name": "jre-8u431-linux-x64.tar.gz",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java8/java8u431/jre/jre-8u431-linux-x64.tar.gz"
+        },
+        {
+          "name": "jre-8u431-macosx-aarch64.dmg",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java8/java8u431/jre/jre-8u431-macosx-aarch64.dmg"
+        },
+        {
+          "name": "jre-8u431-macosx-x64.dmg",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java8/java8u431/jre/jre-8u431-macosx-x64.dmg"
+        },
+        {
+          "name": "jre-8u431-solaris-sparcv9.tar.gz",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java8/java8u431/jre/jre-8u431-solaris-sparcv9.tar.gz"
+        },
+        {
+          "name": "jre-8u431-windows-i586.exe",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java8/java8u431/jre/jre-8u431-windows-i586.exe"
+        },
+        {
+          "name": "jre-8u431-windows-i586.zip",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java8/java8u431/jre/jre-8u431-windows-i586.zip"
+        },
+        {
+          "name": "jre-8u431-windows-x64.exe",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java8/java8u431/jre/jre-8u431-windows-x64.exe"
+        },
+        {
+          "name": "jre-8u431-windows-x64.zip",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java8/java8u431/jre/jre-8u431-windows-x64.zip"
+        },
+        {
+          "name": "Checksum_JRE8u431.txt",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java8/java8u431/jre/Checksum_JRE8u431.txt"
+        }
+      ]
+    },
+    {
+      "name": "JDK 8U421",
+      "id": "jdk8u421",
+      "downloads": [
+        {
+          "name": "jdk-8u421-linux-i586.rpm",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java8/java8u421/jdk/jdk-8u421-linux-i586.rpm"
+        },
+        {
+          "name": "jdk-8u421-linux-i586.tar.gz",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java8/java8u421/jdk/jdk-8u421-linux-i586.tar.gz"
+        },
+        {
+          "name": "jdk-8u421-linux-x64.rpm",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java8/java8u421/jdk/jdk-8u421-linux-x64.rpm"
+        },
+        {
+          "name": "jdk-8u421-linux-x64.tar.gz",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java8/java8u421/jdk/jdk-8u421-linux-x64.tar.gz"
+        },
+        {
+          "name": "jdk-8u421-macosx-aarch64.dmg",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java8/java8u421/jdk/jdk-8u421-macosx-aarch64.dmg"
+        },
+        {
+          "name": "jdk-8u421-macosx-x64.dmg",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java8/java8u421/jdk/jdk-8u421-macosx-x64.dmg"
+        },
+        {
+          "name": "jdk-8u421-solaris-sparcv9.tar.gz",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java8/java8u421/jdk/jdk-8u421-solaris-sparcv9.tar.gz"
+        },
+        {
+          "name": "jdk-8u421-windows-i586.exe",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java8/java8u421/jdk/jdk-8u421-windows-i586.exe"
+        },
+        {
+          "name": "jdk-8u421-windows-i586.zip",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java8/java8u421/jdk/jdk-8u421-windows-i586.zip"
+        },
+        {
+          "name": "jdk-8u421-windows-x64.exe",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java8/java8u421/jdk/jdk-8u421-windows-x64.exe"
+        },
+        {
+          "name": "jdk-8u421-windows-x64.zip",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java8/java8u421/jdk/jdk-8u421-windows-x64.zip"
+        },
+        {
+          "name": "Checksum_jdk8u421.txt",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java8/java8u421/jdk/Checksum_jdk8u421.txt"
+        }
+      ]
+    },
+    {
+      "name": "JAVA SE 8U421 RUNTIME ENVIRONMENT",
+      "id": "jre8u421",
+      "downloads": [
+        {
+          "name": "jre-8u421-linux-i586.rpm",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java8/java8u421/jre/jre-8u421-linux-i586.rpm"
+        },
+        {
+          "name": "jre-8u421-linux-i586.tar.gz",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java8/java8u421/jre/jre-8u421-linux-i586.tar.gz"
+        },
+        {
+          "name": "jre-8u421-linux-x64.rpm",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java8/java8u421/jre/jre-8u421-linux-x64.rpm"
+        },
+        {
+          "name": "jre-8u421-linux-x64.tar.gz",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java8/java8u421/jre/jre-8u421-linux-x64.tar.gz"
+        },
+        {
+          "name": "jre-8u421-macosx-aarch64.dmg",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java8/java8u421/jre/jre-8u421-macosx-aarch64.dmg"
+        },
+        {
+          "name": "jre-8u421-macosx-x64.dmg",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java8/java8u421/jre/jre-8u421-macosx-x64.dmg"
+        },
+        {
+          "name": "jre-8u421-solaris-sparcv9.tar.gz",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java8/java8u421/jre/jre-8u421-solaris-sparcv9.tar.gz"
+        },
+        {
+          "name": "jre-8u421-windows-i586.exe",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java8/java8u421/jre/jre-8u421-windows-i586.exe"
+        },
+        {
+          "name": "jre-8u421-windows-x64.exe",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java8/java8u421/jre/jre-8u421-windows-x64.exe"
+        },
+        {
+          "name": "Checksum_jre8u421.txt",
+          "url": "https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java8/java8u421/jre/Checksum_jre8u421.txt"
+        }
+      ]
+    }
+  ],
+  "supportInfo": {
+    "title": "Tips",
+    "items": [
+      "JDK8 YYDS~",
+      "TLS 是长期支持版本哦",
+      "Java 和 OpenJDK 是 Oracle 及其附属公司的商标或注册商标。"
+    ],
+    "note": "我们团队已竭尽全力确保我们的产品在发布时能够在所支持的Oracle Java长期支持版本(LTS)上有效运行。尽管如此，我们可能无法对所有Java LTS次要更新版本进行全面测试，在极少数情况下可能会引发兼容性问题。请放心，我们始终致力于解决可能出现的各类挑战，并通过及时更新来持续保障产品兼容性。您的满意是我们的首要任务，感谢您对我们追求卓越产品体验所给予的理解与支持。"
+  },
+  "relatedLinks": [
+    {
+      "name": "INJDK",
+      "url": "https://d.injdk.cn/download"
+    },
+    {
+      "name": "华为云镜像",
+      "url": "https://repo.huaweicloud.com:8443/artifactory/java-local/jdk/"
+    }
+  ]
+}
