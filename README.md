@@ -103,16 +103,15 @@ Oracle 提供基于 OpenJDK 的商业版本，这些版本与 OpenJDK 的源代�
 [Releases](https://adoptium.net/archive.html) |
 [Docker Images](https://hub.docker.com/_/eclipse-temurin/)
 
-Eclipse Adoptium is a top-level project under the Eclipse Foundation, which provides resources and a professional governance model for open source software.
-The Adoptium Working Group consists of major companies and organizations that have a strategic interest in the Java technology, including Red Hat, IBM, Microsoft, Azul, and the iJUG. The former AdoptOpenJDK project has moved to Eclipse Adoptium.
+Eclipse Adoptium 是 Eclipse 基金会的顶级项目，为开源软件提供资源和专业的治理模式。Adoptium 工作组由对 Java 技术有战略兴趣的主要公司和组织组成，包括 Red Hat、IBM、Microsoft、Azul 和 iJUG。前 AdoptOpenJDK 项目已迁移至 Eclipse Adoptium。
 
-The Adoptium OpenJDK builds are called _Eclipse Temurin_ to distinguish the project from the builds. 
+Adoptium OpenJDK 构建被称为 Eclipse Temurin，以区分该项目与构建。
 
-Eclipse Temurin builds are high-quality, vendor-neutral, and TCK-tested under a permissive license.
+Eclipse Temurin 构建是高质量的、供应商中立的，并在宽松许可下经过 TCK 测试。
 
-Adoptium states, it will continue to build binaries for LTS releases as long as the corresponding upstream source is actively maintained.
+Adoptium 表示，只要相应的上游源代码得到积极维护，它将继续构建 LTS 版本的二进制文件。
 
-✅ Recommendation: _Adoptium Eclipse Temurin_ OpenJDK builds are highly recommended.
+✅ 推荐方案：强烈推荐使用 Adoptium Eclipse Temurin OpenJDK 构建版本。
 
 
 ### AdoptOpenJDK
@@ -121,11 +120,11 @@ Adoptium states, it will continue to build binaries for LTS releases as long as 
 [Releases](https://adoptopenjdk.net/archive.html?variant=openjdk11&jvmVariant=hotspot) |
 [Docker Images](https://hub.docker.com/_/adoptopenjdk)
 
-The AdoptOpenJDK project was the predecessor of Eclipse Adoptium and provided high-quality OpenJDK builds, both for the default HotSpot and the OpenJ9 virtual machine.
+AdoptOpenJDK 项目是 Eclipse Adoptium 的前身，为默认 HotSpot 和 OpenJ9 虚拟机提供了高质量的 OpenJDK 构建。
 
-The website and older releases are kept online to access archived releases.
+网站和旧版本发布被保留在线上，以便访问存档版本。
 
-⛔️ Recommendation: Do not use _AdoptOpenJDK_ anymore. Use _Adoptium Eclipse Temurin_ instead.
+⛔️  建议：不要再使用 AdoptOpenJDK。请使用 Adoptium Eclipse Temurin 代替。
 
 
 ### Azul Zulu
@@ -134,16 +133,13 @@ The website and older releases are kept online to access archived releases.
 [Releases](https://www.azul.com/downloads/?package=jdk#download-openjdk) |
 [Docker Images](https://hub.docker.com/r/azul/zulu-openjdk)
 
-Azul Zulu Builds of OpenJDK are no-cost, production-ready open-source, TCK-tested, and certified OpenJDK distributions. 
-They are available for a wide range of hardware platforms and operating systems and are compatible with special requirements, 
-such as stripped-down JREs and builds, including OpenJFX and Coordinated Restore at Checkpoint (CRaC). 
+Azul Zulu Builds of OpenJDK 是免费、生产就绪的开源、TCK 测试和认证的 OpenJDK 发行版。它们适用于广泛的硬件平台和操作系统，并兼容特殊要求，如精简的 JRE 和包括 OpenJFX 和协调检查点恢复（CRaC）在内的构建。
 
-They are supported as part of Azul Platform Core, which provides stabilized security updates for rapid, assured deployment 
-into production and solution-oriented engineering assistance.
+它们作为 Azul Platform Core 的一部分得到支持，该平台提供稳定的更新和安全补丁，以确保快速、可靠的部署到生产环境，并提供面向解决方案的工程支持。
 
-A downside of these builds is the dependency to a single company, that may suddenly change its license or update policies.
+这些构建的缺点是依赖于单一公司，该公司可能会突然更改其许可或更新策略。
 
-✅ Recommendation: _Azul Zulu Builds of OpenJDK_ are a good choice.
+✅ 推荐：Azul Zulu Builds of OpenJDK 是一个不错的选择。
 
 
 ### Azul Zing
@@ -152,14 +148,13 @@ A downside of these builds is the dependency to a single company, that may sudde
 [Releases](https://www.azul.com/products/prime-roadmap/) |
 [Docker Images](https://hub.docker.com/u/azul)
 
-Azul Zing Builds of OpenJDK (Zing) are commercial optimized builds of OpenJDK, currently marketed as Azul Platform Prime. Zing is free for evaluation but requires a commercial contract with Azul Systems for production use. 
+Azul Zing 的 OpenJDK 构建（Zing）是商业优化的 OpenJDK 构建，目前作为 Azul Platform Prime 进行市场推广。Zing 可用于评估，但生产使用需要与 Azul Systems 签订商业合同。
 
-Zing takes OpenJDK as its base and replaces several key components with optimized versions. The major additions are the C4 Pauseless Garbage Collector (the only generational, production tested pauseless garbage collection available for all major Java versions, including Java 8 and 11), the Falcon JIT Compiler (optimizes code for faster throughput, lower response latencies, and greater carrying capacity), the ReadyNow Warmup Optimizer (learns from previous runs of your application to bring applications to full speed as quickly as possible), and Azul Optimizer Hub (a separate component that offloads JIT compilation from your client machines and lets JVMs learn from each other to reach maximum speed as quickly as possible).
+Zing 以 OpenJDK 为基础，并使用优化版本替换了几个关键组件。主要新增功能包括 C4 Pauseless 垃圾回收器（适用于所有主流 Java 版本，包括 Java 8 和 11 的唯一生产级暂停式垃圾回收器）、Falcon JIT 编译器（优化代码以提高吞吐量、降低响应延迟和增加承载能力）、ReadyNow 预热优化器（从应用程序的先前运行中学习，以便尽可能快地将应用程序加速到全速）、Azul 优化器中心（一个独立组件，将 JIT 编译从客户端机器卸载，并让 JVM 相互学习以尽可能快地达到最大速度）。
 
-Zing is a good choice for latency-sensitive applications that need to guarantee low median latency and minimum latency outliers, applications that aggressively scale up and down and need to be ready to handle traffic as soon as possible, and large fleets of JVMs running an application where the cost of infrastructure is an issue. 
+Zing 是适用于需要保证低中值延迟和最小延迟异常值、需要快速扩展和缩减并尽快处理流量的应用程序、以及大型 JVM 集群运行应用程序且基础设施成本成为问题的理想选择。
 
-⚠️ Recommendation: Consider _Azul Zing / Azul Platform Prime_ when GC pause times, slow warmup, and large on-prem infrastructure or Cloud costs are a problem. Do not use it in production without a license. 
-
+⚠️  建议：当遇到 GC 停顿时间、缓慢预热和大型本地基础设施或云成本问题时，请考虑使用 Azul Zing / Azul Platform Prime。在没有许可证的情况下，请勿在生产环境中使用。
 
 ### BellSoft Liberica JDK
 
@@ -167,16 +162,15 @@ Zing is a good choice for latency-sensitive applications that need to guarantee 
 [Releases](https://bell-sw.com/pages/downloads/?) |
 [Docker Images](https://hub.docker.com/u/bellsoft)
 
-Similar to Azul, BellSoft has specialized in professional Java technologies and commercial support for JDK.
-Also, BellSoft has a high industry reputation and is engaged in various working groups to evolve the Java platform.
+与 Azul 类似，BellSoft 专注于专业 Java 技术和 JDK 的商业支持。BellSoft 在业界享有很高的声誉，并参与多个工作组以推动 Java 平台的发展。
 
-BellSoft provides open source OpenJDK builds called _Liberica JDK_ for pretty much all operating systems and architectures.
+BellSoft 为几乎所有操作系统和架构提供开源的 OpenJDK 构建，称为 Liberica JDK。
 
-The popular Spring Boot framework chose Liberica JDK as runtime for their [buildpack](https://github.com/paketo-buildpacks/bellsoft-liberica).
+流行的 Spring Boot 框架选择了 Liberica JDK 作为其[构建包](https://github.com/paketo-buildpacks/bellsoft-liberica)的运行环境.
 
-A downside of these builds is the dependency to a single company, that may suddenly change its license or update policies.
+这些构建的缺点是依赖于单一公司，该公司可能会突然更改其许可或更新策略。
 
-✅ Recommendation: _BellSoft Liberica JDK_ builds are a good choice.
+✅ 推荐：BellSoft Liberica JDK 构建是一个不错的选择。
 
 
 ### IBM Semeru Runtime
@@ -185,13 +179,11 @@ A downside of these builds is the dependency to a single company, that may sudde
 [Releases](https://developer.ibm.com/languages/java/semeru-runtimes/downloads/) |
 Docker Images (n/a)
 
-IBM developed its own version of the Java Virtual Machine, called J9 and it was open-sourced as _Eclipse OpenJ9_.
-It is an alternative to the default HotSpot Java Virtual Machine, but it has never gained much popularity.
+IBM 开发了自己的 Java 虚拟机版本，称为 J9，并将其开源为 Eclipse OpenJ9。它是默认 HotSpot Java 虚拟机的一个替代品，但从未获得太多人气。
 
-IBM now provides builds called _Semeru Runtime_ based on the Eclipse OpenJ9 Java Virtual Machine and some OpenJDK class libraries.
-OpenJ9 has a [low memory footprint and starts fast with shared classes](https://www.eclipse.org/openj9/performance/), but lower throughput compared to Hotspot Virtual Machine.
+IBM 现在提供基于 Eclipse OpenJ9 Java 虚拟机和一些 OpenJDK 类库的构建版本，称为 Semeru Runtime。OpenJ9[内存占用低，启动速度快，具有共享类](https://www.eclipse.org/openj9/performance/), 但与 Hotspot 虚拟机相比，吞吐量较低。
 
-⚠️ Recommendation: Use _IBM Semeru Runtime_ only if you know that you need the OpenJ9 Virtual Machine.
+⚠️  推荐：仅当您知道需要 OpenJ9 虚拟机时才使用 IBM Semeru Runtime。
 
 
 ### Amazon Corretto
@@ -200,15 +192,15 @@ OpenJ9 has a [low memory footprint and starts fast with shared classes](https://
 [Releases](https://aws.amazon.com/corretto/) |
 [Docker Images](https://hub.docker.com/_/amazoncorretto)
 
-Since Oracle changed the support and license policy for its OpenJDK builds, major cloud providers decided to establish their own managed OpenJDK builds and providing long-term updates. Apparently, this is to avoid risks, especially lawsuits against Oracle.
+由于 Oracle 更改了其 OpenJDK 构建的支持和许可政策，主要的云服务提供商决定建立自己的托管 OpenJDK 构建并提供长期更新。显然，这是为了避免风险，尤其是避免与 Oracle 的诉讼。
 
-In 2018, AWS published _Corretto_, yet another OpenJDK build.
+2018 年，AWS 发布了 Corretto，这是另一个 OpenJDK 构建版本。
 
-AWS includes back ports of bug fixes from newer OpenJDK versions and [claims](https://aws.amazon.com/corretto/faqs/) that they would add patches that might not yet be integrated in the OpenJDK project. Amazon has implemented an alternative [crypto provider](https://github.com/corretto/amazon-corretto-crypto-provider) that has been optimized for their services. It is [planned](https://aws.amazon.com/blogs/opensource/introducing-amazon-corretto-crypto-provider-accp/) to be used as the default crypto implementation in Corretto.
+AWS 包含了从较新 OpenJDK 版本中回滚的 bug 修复，并声称他们将会添加尚未集成到 OpenJDK 项目中的一些补丁。亚马逊实施了一个针对其服务进行了优化的替代加密提供者，计划将其作为 Corretto 中的默认加密实现。
 
-Amazon provides releases for major development platforms and an optimized version for its own Amazon Linux 2.
+亚马逊为主要的开发平台提供发行版，并为自己的亚马逊 Linux 2 提供优化版本。
 
-✅ Recommendation: _Corretto_ builds are a good choice, particularly if you run Java applications directly on Amazon Linux 2 in AWS.
+✅  推荐：Corretto 构建是一个不错的选择，尤其是如果您在 AWS 上直接在亚马逊 Linux 2 上运行 Java 应用程序。
 
 
 ### Microsoft Build of OpenJDK
@@ -217,13 +209,13 @@ Amazon provides releases for major development platforms and an optimized versio
 [Releases](https://docs.microsoft.com/en-us/java/openjdk/download) |
 [Docker Images](https://docs.microsoft.com/en-us/java/openjdk/containers)
 
-In 2021, Microsoft published _Microsoft Build of OpenJDK_, yet another OpenJDK build.
+2021 年，微软发布了 Microsoft Build of OpenJDK，这是另一个 OpenJDK 构建版本。
 
-Microsoft may include back ports of bug fixes from newer OpenJDK versions and claims that they would add patches that might not yet be integrated in the OpenJDK project.
+微软可能会包含从较新版本的 OpenJDK 中回滚的 bug 修复，并声称他们可能会添加尚未集成到 OpenJDK 项目中的一些补丁。
 
-Microsoft provides releases for major development platforms.
+微软为主要的开发平台提供发布版本。
 
-⚠️ Recommendation: Use _Microsoft Build of OpenJDK_, only if you run Java applications directly on Azure. There are more established options available.
+⚠️ 建议：仅在您直接在 Azure 上运行 Java 应用程序时使用微软的 OpenJDK 构建版本。还有更多更成熟的选项可用。
 
 ### Alibaba Dragonwell
 
@@ -231,9 +223,9 @@ Microsoft provides releases for major development platforms.
 [Releases](http://dragonwell-jdk.io) |
 [Docker Images](https://github.com/alibaba/dragonwell11/wiki/Use-Dragonwell-11-docker-images)
 
-Alibaba provides an OpenJDK build which includes back ports and some _extra features_.
+阿里巴巴提供了一种 OpenJDK 构建，其中包含向后移植和一些额外功能。
 
-⛔️ Recommendation: Do not use _Alibaba Dragonwell_, unless you are forced by your government.
+建议：除非你被政府强制，否则不要使用阿里巴巴。
 
 
 ### SapMachine
@@ -242,9 +234,9 @@ Alibaba provides an OpenJDK build which includes back ports and some _extra feat
 [Releases](https://github.com/SAP/SapMachine/releases) |
 [Docker Images](https://hub.docker.com/_/sapmachine)
 
-SapMachine is yet another OpenJDK Build, maintained by SAP.
+SapMachine 是另一个由 SAP 维护的 OpenJDK 构建。
 
-⚠️ Recommendation: Use _SapMachine_ only if you are running Java applications on SAP servers. There are more established options available.
+建议：仅在您在 SAP 服务器上运行 Java 应用程序时使用 SapMachine。还有更多更成熟的选项可用。
 
 
 ### Red Hat OpenJDK
@@ -253,9 +245,9 @@ SapMachine is yet another OpenJDK Build, maintained by SAP.
 [Releases](https://developers.redhat.com/products/openjdk/download) |
 [Docker Images](https://catalog.redhat.com/software/containers/ubi8/openjdk-11/5dd6a4b45a13461646f677f4)
 
-Red Hat provides OpenJDK builds for LTS versions.
+红帽公司为 LTS 版本提供 OpenJDK 构建。
 
-⚠️ Recommendation: Use _Red Hat OpenJDK_ only if you are running Java applications directly on Red Hat Enterprise Linux. There are more established options available.
+⚠️ 推荐：仅在您直接在 Red Hat Enterprise Linux 上运行 Java 应用程序时使用 Red Hat OpenJDK。还有更多成熟的选项可供选择。
 
 
 ### ojdkbuild
@@ -264,12 +256,9 @@ Red Hat provides OpenJDK builds for LTS versions.
 [Releases](https://github.com/ojdkbuild/ojdkbuild/releases  ) |
 Docker Images (n/a)
 
-The project is discontinued.
-The ojdkbuild project had the goal of providing Windows x86_64 binaries of OpenJDK that are as close in behaviour to Linux OpenJDK packages as possible, e.g. by using system libraries instead of packaged versions of zlib or OpenSSL.
-It used the packages included in CentOS.
-A use case for these builds was to develop Java software on Windows machines and deploy them to Linux servers in production.
+该项目已停止开发。ojdkbuild 项目的目标是提供尽可能接近 Linux OpenJDK 软件包的 Windows x86_64 二进制文件，例如，通过使用系统库而不是 zlib 或 OpenSSL 的打包版本。它使用了 CentOS 中的软件包。这些构建的使用案例是在 Windows 机器上开发 Java 软件，并在生产中将它们部署到 Linux 服务器上。
 
-⛔️ Recommendation: Do not use _ojdkbuild_, as the project is discontinued.
+建议：不要使用 ojdkbuild，因为该项目已停止。
 
 
 ### GraalVM
@@ -278,25 +267,22 @@ A use case for these builds was to develop Java software on Windows machines and
 [Releases](https://github.com/graalvm/graalvm-ce-builds/releases) |
 [Docker Images](https://github.com/graalvm/container/pkgs/container/graalvm-ce)
 
-GraalVM is a fully compliant JDK, but much different from all the others builds.
+GraalVM 是一个完全符合 JDK 规范的 JDK，但与所有其他构建版本有很大不同。
 
-GraalVM was developed by Oracle. 
-It is based on the OpenJDK but includes a new high-performance compiler and a new polyglot virtual machine (can execute code written in different programming languages).
-It is also possible to create platform-specific native executable that are highly optimized and start extremely fast.
+GraalVM 是由 Oracle 开发的。它基于 OpenJDK，但包含一个新的高性能编译器和一个新的多语言虚拟机（可以执行用不同编程语言编写的代码）。还可以创建针对特定平台的本地可执行文件，这些文件高度优化且启动速度极快。
 
-🤷 Please [share](https://github.com/whichjdk/whichjdk.com/issues/6) your experiences with GraalVM in production, so that we can elaborate a validated recommendation.
+🤷 请 [分享](https://github.com/whichjdk/whichjdk.com/issues/6) 您在生产环境中使用 GraalVM 的经验，以便我们可以提供经过验证的建议。
 
 ## Special Cases
 
 ### Apple Silicon
 
-The official support for _macOS/AArch64_ was implemented with [JEP 391](https://openjdk.java.net/jeps/391) in the OpenJDK 17 release.
+macOS/AArch64 的官方支持是在 OpenJDK 17 版本中通过 [JEP 391](https://openjdk.java.net/jeps/391) 发布。
 
-macOS _x64_ builds run stable with Rosetta 2, but there is a significant performance drop due to emulation.
-People that develop on an _Apple Silicon_ Mac (like me) should install a native macOS _AArch64_ (aka _ARM 64_) build of the JDK.
+macOS x64 构建在 Rosetta 2 上运行稳定，但性能由于仿真而显著下降。在 Apple Silicon Mac（像我这样的人）上开发的人应该安装本地的 macOS AArch64（即 ARM 64）版本的 JDK。
 
-Most distributions have _macOS/AArch64_ builds for Java 17+, only.
-[BellSoft Liberica](https://bell-sw.com/announcements/2021/03/12/Liberica-on-Apple-Silicon/), Amazon Corretto, and [Azul Zulu](https://www.azul.com/newsroom/azul-announces-support-of-java-builds-of-openjdk-for-apple-silicon/) also provide free _macOS/AArch64_ builds for Java 8 and Java 11.
+大多数发行版只为 Java 17+提供 macOS/AArch64 构建
+[BellSoft Liberica](https://bell-sw.com/announcements/2021/03/12/Liberica-on-Apple-Silicon/), Amazon Corretto, and [Azul Zulu](https://www.azul.com/newsroom/azul-announces-support-of-java-builds-of-openjdk-for-apple-silicon/) 提供 Java 8 和 Java 11 的免费 macOS/AArch64 构建。
 
 
 ## 问答
