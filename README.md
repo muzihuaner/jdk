@@ -1,28 +1,26 @@
-# Which Version of JDK Should I Use?
+# 我应该使用哪个版本的 JDK？
 
 <img src="logo.png" alt="Duke is thinking, which version of JDK to use" width="600" />
 
-To build and run Java applications, a Java Compiler, Java Runtime Libraries, and a Virtual Machine are required that implement the Java Platform, Standard Edition ("Java SE") specification.
+构建和运行 Java 应用程序需要实现 Java 平台标准版（“Java SE”）规范的 Java 编译器、Java 运行库和虚拟机。
 
-The [OpenJDK](https://openjdk.java.net) is the open source reference implementation of the Java SE Specification, but it is only the source code.
-Binary distributions are provided by different vendors for a number of supported platforms.
-These distributions differ in licenses, commercial support, supported platforms, and update frequency.
+[OpenJDK](https://openjdk.java.net) 是 Java SE 规范的开放源代码参考实现，但它仅是源代码。不同供应商为多个支持的平台提供二进制发行版。这些发行版在许可证、商业支持、支持的平台和更新频率方面有所不同。
 
-This site gives independent, yet opinionated recommendations.
+本网站提供独立且具有个人观点的建议。
 
 
 ## TL;DR
 
-✅ Recommendation: Use [Adoptium Eclipse Temurin 21](#adoptium-eclipse-temurin) and ensure that your local version matches the CI and production version.  
+✅ 推荐: 使用 [Adoptium Eclipse Temurin 21](#adoptium-eclipse-temurin)，并确保本地版本与 CI 和生产版本一致。 
 
-## Releases
+## 发布版本
 
-Under the current [JDK release model](https://openjdk.java.net/projects/jdk/), a new feature release with a new major version number is planned every six months, in March and September. Additionally, there are quarterly bug fix updates.
+在当前的 [JDK 发布模式](https://openjdk.java.net/projects/jdk/) 下, 每六个月计划发布一个带有新主版本号的新特性版本，分别在 3 月和 9 月。此外，还有季度性错误修复更新。
 
-Every two years, the September release will be a Long-Term-Support (LTS) release, which gets updates for at least three years.
+每两年，九月份的发布将是一个长期支持（LTS）版本，该版本至少会更新三年。
 
 
-| JDK Version	                                        | Type    | Release Date | Highlights         | Recommendation                                                                                                                                                                                                                      |
+| JDK 版本                                        | 类型    |  发布日期 | 突出特点         | 推荐方案                                                                                                                                                                                                                     |
 |-----------------------------------------------------|---------|--------------|--------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**8**](https://openjdk.java.net/projects/jdk8/)    | **LTS** | **03/2014**  | Lambdas            | Last LTS version under previous release model. Free updates by Oracle [ended](https://www.oracle.com/java/technologies/java-se-support-roadmap.html), but still maintained by others. Upgrade to 17 or 21 now! |
 | [9](https://openjdk.java.net/projects/jdk9/)        | Feature | 09/2017	     | Modules            | New release model was introduced. EOL. Upgrade to 17 or 21 now!                                                                                                                                                                     |
@@ -42,13 +40,11 @@ Every two years, the September release will be a Long-Term-Support (LTS) release
 | [23](https://openjdk.java.net/projects/jdk/23/)     | Feature | 09/2024	     | [Markdown Documentation Comments](https://openjdk.org/jeps/467)                  | Stick with 21.                                                                                                                                                            |
 
 
-You have to decide if you want to stick with the latest LTS version, or if you go with the latest feature release and upgrade every six months.
-Both options are okay, but if you're uncertain, stick with the latest LTS version.
+您需要决定是想坚持使用最新的长期支持版本，还是选择使用最新的特性版本并每六个月进行一次升级。这两种选择都可以，但如果您不确定，请坚持使用最新的长期支持版本。
 
-The OpenJDK project itself is managed on [openjdk.java.net](https://openjdk.java.net) where you can find specifications, source code, and mailing lists, but there are no builds that you can download.
-You need to choose a distribution.
+OpenJDK 项目本身在 [openjdk.java.net](https://openjdk.java.net) 上进行管理，您可以在那里找到规范、源代码和邮件列表，但那里没有可以下载的构建版本。您需要选择一个发行版。
 
-## Distributions
+## 发行版
 
 - [OpenJDK builds by Oracle (jdk.java.net)](#openjdk-builds-by-oracle-jdkjavanet)
 - [Oracle Java SE Development Kit (JDK)](#oracle-java-se-development-kit-jdk)
@@ -68,18 +64,16 @@ You need to choose a distribution.
 
 ### OpenJDK builds by Oracle (jdk.java.net)
 
-[Website](https://jdk.java.net) |
+[网站](https://jdk.java.net) |
 [Releases](https://jdk.java.net) |
 Docker Images (n/a)
 
-Oracle provides OpenJDK builds for Linux, macOS and windows in a compressed archive format.
+Oracle 为 Linux、macOS 和 Windows 提供 OpenJDK 构建版本，以压缩归档格式提供。
 
-These builds will only be updated for a 6-month period. 
-Updates and security patches will not be available after this short period. 
-This also applies for LTS versions! 
-e.g., the latest OpenJDK 11 build was [11.0.2+9](https://jdk.java.net/archive/) while the current OpenJDK version is [11.0.12+7](https://wiki.openjdk.java.net/display/JDKUpdates/JDK11u).
+这些构建版本将在 6 个月的时间内进行更新。在此短暂期限之后，将不再提供更新和安全补丁。这也适用于 LTS 版本！例如，最新的
+e.g., OpenJDK 11 构建版本是  [11.0.2+9](https://jdk.java.net/archive/) 而当前的 OpenJDK 版本是 [11.0.12+7](https://wiki.openjdk.java.net/display/JDKUpdates/JDK11u).
 
-⛔️ Recommendation: Do not use _OpenJDK builds by Oracle_, particularly if you plan to stick with LTS versions.
+⛔️  建议：不要使用 Oracle 的 OpenJDK 构建，尤其是如果您打算坚持使用 LTS 版本。
 
 
 ### Oracle Java SE Development Kit (JDK)
@@ -88,21 +82,19 @@ e.g., the latest OpenJDK 11 build was [11.0.2+9](https://jdk.java.net/archive/) 
 [Releases](https://www.oracle.com/java/technologies/downloads/archive/) |
 Docker Images (n/a)
 
-Oracle provides a commercial version of the OpenJDK, which are based on the exactly same sources of the OpenJDK: The Oracle Java SE Development Kit (JDK).
-Oracle provides updates regular updates and security patches for these builds.
+Oracle 提供基于 OpenJDK 的商业版本，这些版本与 OpenJDK 的源代码完全相同：Oracle Java SE 开发工具包（JDK）。Oracle 为这些构建提供定期更新和安全补丁。
 
-The main issue with these builds is Oracle's licensing policy:
+这些构建的主要问题是 Oracle 的许可政策：
 
-Until version 10, builds were published under the [Oracle Binary Code License Agreement](https://www.oracle.com/de/downloads/licenses/binary-code-license.html), which effectively allowed the builds to be used for commercial projects.
+在版本 10 之前，构建是在 [Oracle Binary Code License Agreement](https://www.oracle.com/de/downloads/licenses/binary-code-license.html)下发布的, 这实际上允许构建用于商业项目。
 
-With version 11 to version 16 builds were published under the [Oracle Technology Network License Agreement for Oracle Java SE](https://www.oracle.com/downloads/licenses/javase-license1.html), **which require a fee-based license for usage in production**.
-This is why many new distributions of the OpenJDK have emerged.
+从版本 11 到版本 16 的构建是在 [Oracle Technology Network License Agreement for Oracle Java SE](https://www.oracle.com/downloads/licenses/javase-license1.html),下发布的 Oracle Java SE，这需要付费许可才能在生产中使用。这就是为什么出现了许多新的 OpenJDK 发行版。
 
-Version 17 is published under the [Oracle No-Fee Terms and Conditions (NFTC)](https://www.oracle.com/downloads/licenses/no-fee-license.html), which allows the usage of the builds for running _internal business operations_. Unfortunately, the phrase "internal business operations," is not defined and is a very vague phrase (is a public-facing website running internal business operations?).
+版本 17 是在 [Oracle No-Fee Terms and Conditions (NFTC)](https://www.oracle.com/downloads/licenses/no-fee-license.html), 下发布的，这允许使用构建来运行内部业务运营。不幸的是，“内部业务运营”这个短语没有定义，是一个非常模糊的短语（一个面向公众的网站是否属于内部业务运营？）。
 
-Also, based on this volatile licensing history, it is not predictable, how future version will be licensed.
+此外，基于这种不稳定的许可历史，未来版本将如何许可是不可预测的。
 
-⛔️ Recommendation: Do not use _Oracle Java SE Development Kit (JDK)_ before consulting your lawyer.
+⛔️ 建议：在咨询律师之前，不要使用 Oracle Java SE 开发工具包（JDK）。
 
 
 ### Adoptium Eclipse Temurin
